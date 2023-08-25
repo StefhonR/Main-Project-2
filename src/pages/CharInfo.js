@@ -24,9 +24,12 @@ const CharInfo = () => {
     return (
         <div className="CharInfo">
             <img src={charInfo.image} alt={`Img of ${charInfo.name}`} />
-            <h4>ID: {charInfo.id}</h4>
-            <h4>Name: {charInfo.name}</h4>
-            <h4>Status: {charInfo.status}</h4>
+            <h3>ID: {charInfo.id}</h3>
+            <h3>Name: {charInfo.name}</h3>
+            <h3>Status: {charInfo.status}</h3>
+            <h3>Species: {charInfo.species}</h3>
+            <h3>Type: {charInfo.type}</h3>
+            <h3>Gender: {charInfo.gender}</h3>
             
         </div>
     );

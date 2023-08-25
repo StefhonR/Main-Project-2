@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-image: url(https://i.pinimg.com/736x/ea/a2/4d/eaa24d68af5788dfcda142733ea2f99a.jpg);
 }
 
 .nav {
@@ -9,11 +8,16 @@
   width: 100vw;
   height: 50px;
   padding: 0 20px;
-  background: #1ad4ce;
+  border-radius: 25px;
+  background: #000000;
 }
 
 .nav > * {
   padding-right: 20px;
+}
+
+.about {
+  color: white;
 }
 
 .Home {
@@ -21,11 +25,20 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background: rgb(32, 35, 41);
-}
-
-.HomeItems {
-  padding: 20px;
   
 }
 
+.HomeItems {
+  border-radius: 25px;
+  background: rgb(34, 34, 34);
+  padding: 20px;
+}
+
+.CharInfo {
+  color: rgb(249, 249, 249);
+}
+
+html {
+  background-image: url(https://i.pinimg.com/736x/ea/a2/4d/eaa24d68af5788dfcda142733ea2f99a.jpg);
+  background-size: cover;
+}

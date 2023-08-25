@@ -25,8 +25,10 @@ const Home = () => {
 
             return (
             <Link key={id} to={`/charinfo/${id}`}>
+                <div className="HomeItems">
                 <img src={image} alt={``} />
-                <h2 className="HomeItems">{name}</h2>
+                <h2>{name}</h2>
+                </div>
             </Link>
             );
         })}
